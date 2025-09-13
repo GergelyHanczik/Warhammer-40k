@@ -1,2 +1,2 @@
-# warhammer40k
+# Warhammer 40k
 Made for LSH Interview.
