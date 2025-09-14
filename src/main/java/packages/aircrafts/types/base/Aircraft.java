@@ -1,9 +1,19 @@
 package main.java.packages.aircrafts.types.base;
 
 
+import java.lang.reflect.Field;
+import java.util.Arrays;
+import java.util.Objects;
+
 /**
  * Imperial Navy Aircraft Scheme
+ * <p>
+ * Contains methods & data of Individual Aircraft
+ * </p>
+ *
+ * <p>
  * UNKNOWN data are indicated by -1 & null values.
+ * </p>
  * <p>
  * Unique Aircraft Data:
  * <p>
@@ -57,7 +67,7 @@ package main.java.packages.aircrafts.types.base;
 public abstract class Aircraft {
     protected String aircraftNickname = null;
     protected String pilot = null;
-    protected String affiliation = null;
+    protected Affiliation affiliation = null;
     protected int airKillCount = 0;
     protected int successfulMissionCount = 0;
     protected int missionCount = 0;
@@ -107,5 +117,210 @@ public abstract class Aircraft {
         this.superstructureThickness = -1;
         this.hullThickness = -1;
         this.accessPorts = null;
+    }
+
+    public String getAircraftNickname() {
+        return aircraftNickname;
+    }
+
+    public void setAircraftNickname(String aircraftNickname) {
+        this.aircraftNickname = aircraftNickname;
+    }
+
+    public String getPilot() {
+        return pilot;
+    }
+
+    public void setPilot(String pilot) {
+        this.pilot = pilot;
+    }
+
+    public Affiliation getAffiliation() {
+        return this.affiliation;
+    }
+
+    public void setAffiliation(Affiliation affiliation) {
+        this.affiliation = affiliation;
+    }
+
+    public int getAirKillCount() {
+        return airKillCount;
+    }
+
+    public void setAirKillCount(int airKillCount) {
+        this.airKillCount = airKillCount;
+    }
+
+    public int getSuccessfulMissionCount() {
+        return successfulMissionCount;
+    }
+
+    public void setSuccessfulMissionCount(int successfulMissionCount) {
+        this.successfulMissionCount = successfulMissionCount;
+    }
+
+    public int getMissionCount() {
+        return missionCount;
+    }
+
+    public void setMissionCount(int missionCount) {
+        this.missionCount = missionCount;
+    }
+
+    public short getPattern() {
+        return pattern;
+    }
+
+    public void setPattern(short pattern) {
+        this.pattern = pattern;
+    }
+
+    public String getVehicleName() {
+        return vehicleName;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public String getForgeWorldOfOrigin() {
+        return forgeWorldOfOrigin;
+    }
+
+    public int[] getPatterns() {
+        return patterns;
+    }
+
+    public String[] getCrew() {
+        return crew;
+    }
+
+    public String[] getPowerplant() {
+        return powerplant;
+    }
+
+    public float getWeight() {
+        return weight;
+    }
+
+    public float getLength() {
+        return length;
+    }
+
+    public float getWingspan() {
+        return wingspan;
+    }
+
+    public float getHeight() {
+        return height;
+    }
+
+    public String getTransportCapacity() {
+        return transportCapacity;
+    }
+
+    public String getOperationalCeiling() {
+        return operationalCeiling;
+    }
+
+    public int getMaxSpeed() {
+        return maxSpeed;
+    }
+
+    public int getRange() {
+        return range;
+    }
+
+    public String[] getMainArmament() {
+        return mainArmament;
+    }
+
+    public int getMainAmmunition() {
+        return mainAmmunition;
+    }
+
+    public String[] getSecondaryArmament() {
+        return secondaryArmament;
+    }
+
+    public int getSecondaryAmmunition() {
+        return secondaryAmmunition;
+    }
+
+    public short getSuperstructureThickness() {
+        return superstructureThickness;
+    }
+
+    public short getHullThickness() {
+        return hullThickness;
+    }
+
+    public String[] getAccessPorts() {
+        return accessPorts;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null || getClass() != obj.getClass()) return false;
+        if (obj == this) return false;
+
+        Aircraft aircraft = (Aircraft) obj;
+        Field[] attributes = aircraft.getClass().getDeclaredFields();
+        for (Field attribute : attributes) {
+            Class currentClass = attribute.getType();
+            try {
+                Object attributeObject = attribute.get(aircraft);
+                Object attributeThis = attribute.get(this);
+                if (attributeObject != attributeThis) {
+                    return false;
+                }
+            } catch (IllegalAccessException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getAircraftNickname(),
+                getPilot(),
+                getAffiliation(),
+                getAirKillCount(),
+                getSuccessfulMissionCount(),
+                getMissionCount(),
+                getPattern(),
+                getVehicleName(),
+                getType(),
+                getForgeWorldOfOrigin(),
+                Arrays.hashCode(getPatterns()),
+                Arrays.hashCode(getCrew()),
+                Arrays.hashCode(getPowerplant()),
+                getWeight(),
+                getLength(),
+                getWingspan(),
+                getHeight(),
+                getTransportCapacity(),
+                getOperationalCeiling(),
+                getMaxSpeed(),
+                getRange(),
+                Arrays.hashCode(getMainArmament()),
+                getMainAmmunition(),
+                Arrays.hashCode(getSecondaryArmament()),
+                getSecondaryAmmunition(),
+                getSuperstructureThickness(),
+                getHullThickness(),
+                Arrays.hashCode(getAccessPorts()));
+    }
+
+    @Override
+    public String toString() {
+        return "Aircraft Class: '" + vehicleName + '\'' +
+                ", Type: '" + type + '\'' +
+                ", Nicknamed: '" + aircraftNickname + '\'' +
+                ", Piloted by: '" + pilot + '\'' +
+                ", Affiliation: '" + affiliation.getName() + '\'' +
+                '.';
     }
 }
