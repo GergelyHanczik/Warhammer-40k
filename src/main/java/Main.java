@@ -1,9 +1,11 @@
 package main.java;
 
-import java.util.stream.IntStream;
+import main.java.packages.aircrafts.AquilaLander;
+import main.java.packages.aircrafts.MarauderDestroyer;
+import main.java.packages.aircrafts.base.Aircraft;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(boolean.class);
+
     }
 }
