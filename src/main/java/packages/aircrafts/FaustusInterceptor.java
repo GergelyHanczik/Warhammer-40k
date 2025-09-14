@@ -5,6 +5,7 @@ import main.java.packages.aircrafts.base.Aircraft;
 
 /**
  * <h1>Faustus Interceptor</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Faustus_Interceptor">Lexicanum</a>
  */
 public class FaustusInterceptor extends Aircraft {
     public FaustusInterceptor() {

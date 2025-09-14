@@ -5,6 +5,7 @@ import main.java.packages.aircrafts.base.Aircraft;
 
 /**
  * <h1>Stormbird Dropship / Assault & Transport Aircraft</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Stormbird">Lexicanum</a>
  */
 public class Stormbird extends Aircraft {
     public Stormbird() {

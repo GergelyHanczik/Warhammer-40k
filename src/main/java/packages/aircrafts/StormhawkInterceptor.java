@@ -5,6 +5,7 @@ import main.java.packages.aircrafts.base.Aircraft;
 
 /**
  * <h1>Stormhawk Interceptor</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Stormhawk_Interceptor">Lexicanum</a>
  */
 public class StormhawkInterceptor extends Aircraft {
     public StormhawkInterceptor() {

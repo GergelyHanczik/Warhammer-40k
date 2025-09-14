@@ -7,6 +7,7 @@ import java.util.stream.IntStream;
 
 /**
  * <h1>Thunderbolt Fury Multi-role Heavy Fighter</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Thunderbolt#Thunderbolt_Fury">Lexicanum</a>
  */
 public class ThunderboltFury extends Aircraft {
     public ThunderboltFury() {

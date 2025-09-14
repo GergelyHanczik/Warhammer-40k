@@ -5,6 +5,7 @@ import main.java.packages.aircrafts.base.Aircraft;
 
 /**
  * <h1>Marauder Colossus Strategical Bomber</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Marauder_Bomber#Marauder_Colossus">Lexicanum</a>
  */
 public class MarauderColossus extends Aircraft {
     public MarauderColossus() {

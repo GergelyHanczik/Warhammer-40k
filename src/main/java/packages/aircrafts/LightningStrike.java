@@ -7,6 +7,7 @@ import java.util.stream.IntStream;
 
 /**
  * <h1>Lightning Strike Fighter</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Lightning_Strike">Lexicanum</a>
  */
 public class LightningStrike extends Aircraft {
     public LightningStrike() {

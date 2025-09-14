@@ -5,6 +5,7 @@ import main.java.packages.aircrafts.base.Aircraft;
 
 /**
  * <h1>Vulture Gunship</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Valkyrie#Vulture">Lexicanum</a>
  */
 public class Vulture extends Aircraft {
     public Vulture() {

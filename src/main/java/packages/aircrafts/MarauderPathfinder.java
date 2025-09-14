@@ -5,6 +5,7 @@ import main.java.packages.aircrafts.base.Aircraft;
 
 /**
  * <h1>Marauder Pathfinder High-altitude, Long-range Reconnaissance Aircraft</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Marauder_Bomber#Marauder_Pathfinder">Lexicanum</a>
  */
 public class MarauderPathfinder extends Aircraft {
     public MarauderPathfinder() {

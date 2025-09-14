@@ -5,6 +5,7 @@ import main.java.packages.aircrafts.base.Aircraft;
 
 /**
  * <h1>Fury Interceptor</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Fury_Interceptor">Lexicanum</a>
  */
 public class FuryInterceptor extends Aircraft {
     public FuryInterceptor() {

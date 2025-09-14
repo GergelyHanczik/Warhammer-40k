@@ -5,6 +5,7 @@ import main.java.packages.aircrafts.base.Aircraft;
 
 /**
  * <h1>Sky Talon Airborne Assault Carrier</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Valkyrie#Sky_Talon">Lexicanum</a>
  */
 public class SkyTalon extends Aircraft {
     public SkyTalon() {

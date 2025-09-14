@@ -5,6 +5,7 @@ import main.java.packages.aircrafts.base.Aircraft;
 
 /**
  * <h1>Space Marine Landing Craft (Orbital-Assault Vehicle)</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Space_Marine_Landing_Craft">Lexicanum</a>
  */
 public class SpaceMarineLandingCraft extends Aircraft {
     public SpaceMarineLandingCraft() {

@@ -7,6 +7,7 @@ import java.util.stream.IntStream;
 
 /**
  * <h1>Valkyrie Airborne Assault Carrier</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Valkyrie">Lexicanum</a>
  */
 public class Valkyrie extends Aircraft {
     public Valkyrie() {

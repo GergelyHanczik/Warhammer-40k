@@ -7,6 +7,7 @@ import java.util.stream.IntStream;
 
 /**
  * <h1>Marauder Bomber</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Marauder_Bomber">Lexicanum</a>
  */
 public class MarauderBomber extends Aircraft {
     public MarauderBomber() {

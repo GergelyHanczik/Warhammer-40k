@@ -5,6 +5,7 @@ import main.java.packages.aircrafts.base.Aircraft;
 
 /**
  * <h1>Thunderbolt Dropship</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Thunderbolt_Dropship">Lexicanum</a>
  */
 public class ThunderboltDropship extends Aircraft {
     public ThunderboltDropship() {

@@ -5,6 +5,7 @@ import main.java.packages.aircrafts.base.Aircraft;
 
 /**
  * <h1>Stormtalon Light Gunship & Interceptor Aircraft</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Stormtalon_Gunship">Lexicanum</a>
  */
 public class StormtalonGunship extends Aircraft {
     public StormtalonGunship() {

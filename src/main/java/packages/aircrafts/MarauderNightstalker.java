@@ -5,6 +5,7 @@ import main.java.packages.aircrafts.base.Aircraft;
 
 /**
  * <h1>Marauder Nightstalker Nightfighter</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Marauder_Bomber#Marauder_Nightstalker">Lexicanum</a>
  */
 public class MarauderNightstalker extends Aircraft {
     public MarauderNightstalker() {

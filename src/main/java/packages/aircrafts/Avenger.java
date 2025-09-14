@@ -7,6 +7,7 @@ import java.util.stream.IntStream;
 
 /**
  * <h1>Avenger Aircraft</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Avenger">Lexicanum</a>
  */
 public class Avenger extends Aircraft {
     public Avenger() {

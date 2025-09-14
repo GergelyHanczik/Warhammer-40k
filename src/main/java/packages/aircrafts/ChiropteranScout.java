@@ -5,6 +5,7 @@ import main.java.packages.aircrafts.base.Aircraft;
 
 /**
  * <h1>Chiropteran Scout Aircraft</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Chiropteran_Scout">Lexicanum</a>
  */
 public class ChiropteranScout extends Aircraft {
     public ChiropteranScout() {

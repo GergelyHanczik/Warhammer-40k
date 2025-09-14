@@ -5,6 +5,7 @@ import main.java.packages.aircrafts.base.Aircraft;
 
 /**
  * <h1>Valkyrie (Void Capable) Airborne Assault Carrier</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Valkyrie">Lexicanum</a>
  */
 public class VoidCapableValkyrie extends Aircraft {
     public VoidCapableValkyrie() {

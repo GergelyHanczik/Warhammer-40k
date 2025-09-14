@@ -7,6 +7,7 @@ import java.util.stream.IntStream;
 
 /**
  * <h1>Thunderhawk Orbital Dropship</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Thunderhawk">Lexicanum</a>
  */
 public class ThunderhawkGunship extends Aircraft {
     public ThunderhawkGunship() {

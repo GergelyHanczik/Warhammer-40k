@@ -5,6 +5,7 @@ import main.java.packages.aircrafts.base.Aircraft;
 
 /**
  * <h1>Shark Assault Boat</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Shark_Assault_Boat">Lexicanum</a>
  */
 public class SharkAssaultBoat extends Aircraft {
     public SharkAssaultBoat() {

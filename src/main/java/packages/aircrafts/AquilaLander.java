@@ -7,6 +7,7 @@ import java.util.stream.IntStream;
 
 /**
  * <h1>Aquila Lander Aircraft</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Aquila_Lander">Lexicanum</a>
  */
 public class AquilaLander extends Aircraft {
     public AquilaLander() {

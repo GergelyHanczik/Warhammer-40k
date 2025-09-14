@@ -7,6 +7,7 @@ import java.util.stream.IntStream;
 
 /**
  * <h1>Arvus Lighter Aircraft</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Arvus_Lighter">Lexicanum</a>
  */
 public class ArvusLighter extends Aircraft {
     public ArvusLighter() {

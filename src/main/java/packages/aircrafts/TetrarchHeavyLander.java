@@ -5,6 +5,7 @@ import main.java.packages.aircrafts.base.Aircraft;
 
 /**
  * <h1>Tetrarch Orbit-to-Surface Dropship, Armoured Interface Vessel</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Tetrarch_Heavy_Lander">Lexicanum</a>
  */
 public class TetrarchHeavyLander extends Aircraft {
     public TetrarchHeavyLander() {

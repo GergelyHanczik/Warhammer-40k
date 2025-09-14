@@ -5,6 +5,7 @@ import main.java.packages.aircrafts.base.Aircraft;
 
 /**
  * <h1>Marauder Vigilant Reconnaissance / Command & Control Aircraft</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Marauder_Bomber#Marauder_Vigilant">Lexicanum</a>
  */
 public class MarauderVigilant extends Aircraft {
     public MarauderVigilant() {

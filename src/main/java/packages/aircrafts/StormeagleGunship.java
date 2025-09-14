@@ -5,6 +5,7 @@ import main.java.packages.aircrafts.base.Aircraft;
 
 /**
  * <h1>Stormeagle Orbital Dropship</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Storm_Eagle_Assault_Gunship">Lexicanum</a>
  */
 public class StormeagleGunship extends Aircraft {
     public StormeagleGunship() {

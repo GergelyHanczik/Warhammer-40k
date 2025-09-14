@@ -5,6 +5,7 @@ import main.java.packages.aircrafts.base.Aircraft;
 
 /**
  * <h1>Spectre-class Valkyrie</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Valkyrie#Spectre">Lexicanum</a>
  */
 public class Spectre extends Aircraft {
     public Spectre() {

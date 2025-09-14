@@ -5,6 +5,7 @@ import main.java.packages.aircrafts.base.Aircraft;
 
 /**
  * <h1>Devourer Dropship</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Devourer_Dropship">Lexicanum</a>
  */
 public class DevourerDropship extends Aircraft {
     public DevourerDropship() {

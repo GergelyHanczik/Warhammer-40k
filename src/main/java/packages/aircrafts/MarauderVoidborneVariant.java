@@ -5,6 +5,7 @@ import main.java.packages.aircrafts.base.Aircraft;
 
 /**
  * <h1>Marauder (Voidboerne Variant) Void Combat Tactical Bomber</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Marauder_Bomber#Voidborne_variant">Lexicanum</a>
  */
 public class MarauderVoidborneVariant extends Aircraft {
     public MarauderVoidborneVariant() {

@@ -5,6 +5,7 @@ import main.java.packages.aircrafts.base.Aircraft;
 
 /**
  * <h1>Vendetta Heavy Gunship</h1>
+ * <a href="https://wh40k.lexicanum.com/wiki/Valkyrie#Vendetta">Lexicanum</a>
  */
 public class Vendetta extends Aircraft {
     public Vendetta() {
